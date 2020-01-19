@@ -1,0 +1,8 @@
+{
+  "name": "hz_jutsu",
+  "version": "1.0.0",
+  "description": "playing with a jutsu api based in naruto, dont tell anybody",
+  "main": "main.js",
+  "author": "hazy <gracrys@gmail.com>",
+  "license": "MIT"
+}
