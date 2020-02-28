@@ -1,45 +1,90 @@
+interface Jutsus {
+  jutsus :  Jutsu 
+}
+
+interface Jutsu {
+  name : String,
+  romanji : String,
+  element : String,
+  kanji : String,
+  details ?: {
+    spread : Number,
+    distance : Number
+  }
+}
+
 export const jutsus = {
-   "rtdout" : {
+   "pynomy" : {
      name: "Fire Element; Balsam Spread Fire",
-     romanji: "Katon  ",
+     romanji: "Katon style: Hōsenka no Jutsu ",
      element: "Katon",
-     kanji: "火遁"
+     kanji: "火遁・鳳仙火の術"
    },
-  "rh" : {
+  "yph" : {
      name: "Fire Element; Fire Dragon Flame Missile",
+     romanji: "Katon style: Karyūdan",
+     element: "Katon",
+    kanji: "火遁・火龍弾"
+   },
+     "yphy" : {
+     name: "Fire Element; Great Dragon Fire Technique",
      romanji: "Katon style: ",
      element: "Katon",
     kanji: "火遁"
    },
-  "trbm" : {
+  "ypij" : {
     name: "Fire Release: Exploding Flame Formation",
     romaji: "Katon: Kibaku Enjin",
     element: "katon",
     kanji: "火遁・起爆炎陣­"
-  }
+  },
+    "jlbuky":{ 
+      name: "Fire Release: Great Fireball Technique",
+      romaji: "Katon: Gōkakyū no Jutsu",
+      element: "katon",
+      kanji: "火遁・豪火球の術­­"
+    },
+      "yk":{ 
+      name: "Fire Release: Great Blaze Ball",
+      romaji: "Katon: Gōenkyū",
+      element: "katon",
+      kanji: "火遁・豪焔球­­"
+    },
+  "y":{
+    name:"Fire Release: Great Flame Flower",
+    romanji:"Katon: Gōenka",
+    element:"Katon",
+    kanji:"火遁・豪炎華",
+  },
+    "yiuo":{
+  name:"Fire Release: Phoenix Sage Fire Technique",
+  romanji:"Katon: Hōsenka no Jutsu",
+  element:"Katon",
+  kanji:"火遁・鳳仙火の術"
+},
 }
 
 
 export const handSigns = {
-  "t": {
+  "y": {
     name: "tiger",
     sign: "",
     romanji: "tora",
     emoji: "🐯"
   },
-   "i": {
+   "u": {
     name: "boar",
     sign: "",
     romanji: "I",
     emoji: "🐗"
   }, 
-  "b": {
+  "i": {
     name: "bird",
     sign: "",
     romanji: "tori",
     emoji: "🐦"
   }, 
-  "r": {
+  "p": {
     name: "rat",
     sign: "",
     romanji: "ne",
@@ -51,43 +96,43 @@ export const handSigns = {
     romanji: "ushi",
     emoji: "🐮"
   },
-  "u": {
+  "m": {
     name: "rabbit",
     sign: "",
     romanji: "u",
     emoji: "🐰"
   },
-  "a": {
+  "h": {
     name: "dragon",
     sign: "",
     romanji: "tatsu",
     emoji: "🐲"
   },
-  "m": {
+  "j": {
     name: "snake",
     sign: "",
     romanji: "mi",
     emoji: "🐍"
   },
-  "h": {
+  "k": {
     name: "horse",
     sign: "",
     romanji: "uma",
     emoji: "🐴"
   },
-  "s": {
+  "l": {
     name: "ram",
     sign: "",
     romanji: "hitsuji",
     emoji: "🐑"
   },
-  "n": {
+  "b": {
     name: "monkey",
     sign: "",
     romanji: "saru",
     emoji: "🐵"
   },
-  "d": {
+  "n": {
     name: "dog",
     sign: "",
     romanji: "inu",

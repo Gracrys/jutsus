@@ -4,5 +4,12 @@
   "description": "playing with a jutsu api based in naruto, dont tell anybody",
   "main": "main.js",
   "author": "hazy <gracrys@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rot-js": "^2.1.1",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "sass": "^1.25.0"
+  }
 }
